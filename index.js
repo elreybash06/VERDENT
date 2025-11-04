@@ -2,9 +2,10 @@ import express from 'express';
 const app = express();
 const port = 3000;
 
-app.get("/", (req, res) => {
-      res.send("<h1>hello</h1>")
-});
+app.use(express.static("Public"));
+app.get("/",(req,res) => {
+    res.render("index.ejs")
+})
 
 app.get("/contact", (req, res) => {
     res.send("0544025323")
