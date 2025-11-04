@@ -147,9 +147,9 @@ body {
   margin-bottom: 10px;
 }
 
-.first { background-image: url('images.jpg'); }
-.second { background-image: url('2efcac6d4384c98a4c3c04a8b5fb3f36.jpg'); }
-.third { background-image: url('goku-ultra-instinct-transformacion-dragon-ball-super-3439.jpg'); }
+.first { background-image: url('/images/images.jpg'); }
+.second { background-image: url('/images/2efcac6d4384c98a4c3c04a8b5fb3f36.jpg'); }
+.third { background-image: url('/images/goku-ultra-instinct-transformacion-dragon-ball-super-3439.jpg'); }
 
 /* Footer */
 footer {
